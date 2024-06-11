@@ -1,7 +1,6 @@
 import great from '../images/great.png'
-import color from '../images/color.png'
-import cloc1 from '../images/cloc1.png'
-import cloc2 from '../images/cloc2.png'
+import cloc1 from '../images/left.png'
+import cloc2 from '../images/right.png'
 import React from 'react'
 
 
@@ -18,11 +17,11 @@ const HeaderSale = () => {
                 <h2 className='neznayu2'>€69,07 NET/MONTH</h2>
             </div>
             <div className='greate-img'>
-            <img src={cloc1} className='knop1'alt=''/>
+            <button className='knop1'><img src={cloc1} alt=''/></button>
             <img src={great} className='vell'alt=''/>
-            <img src={cloc2} className='knop2'alt=''/>
+            <button ><img src={cloc2} alt=''/></button>
             </div>
-            <img src={color} className='cvet'alt=''/>
+            {/* <img src={color} className='cvet'alt=''/> */}
 
         </div>
 
@@ -36,11 +35,11 @@ const HeaderSale = () => {
                 <h2 className='neznayu2'>€69,07 NET/MONTH</h2>
             </div>
             <div className='greate-img'>
-            <img src={cloc1} className='knop1'alt=''/>
+            <button className='knop1'><img src={cloc1} alt=''/></button>
             <img src={great} className='vell'alt=''/>
             <img src={cloc2} className='knop2'alt=''/>
             </div>
-            <img src={color} className='cvet'alt=''/>
+            {/* <img src={color} className='cvet'alt=''/> */}
             
         </div>
         

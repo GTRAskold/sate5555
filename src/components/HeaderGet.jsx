@@ -9,9 +9,9 @@ const HeaderGet = () => {
         <div>
         <input placeholder='First name '/>
         </div>
-        <div>
+       <div>
         <input placeholder='Last name  '/>
-        </div>
+        </div> 
         <div>
         <input placeholder='Email address  '/>
         </div>

@@ -7,26 +7,43 @@ import HeaderNoga from './components/HeaderNoga';
 import HeaderSale from './components/HeaderSale';
 import HeaderGet from './components/HeaderGet';
 import HeaderPeniti from './components/HeaderPeniti';
-import HeaderBegin from './components/HeaderBegin'
-import HeaderPod from './components/HeaderPod'
+import HeaderBegin from './components/HeaderBegin';
+import ProductList from './components/ProductList';
+import HeaderPod from './components/HeaderPod';
+import HeaderTwo from './components/HeaderTwo';
+import HeaderList from './components/HeaderList';
+import HeaderTop from './components/HeaderTop';
+import HeaderPlnt from './components/HeaderPlnt';
+import HeaderHah from './components/HeaderHah';
+import HeaderPedg from './components/HeaderPedg';
+import HeaderProd from './components/HeaderProd';
 import './style.css';
+import AccordionContainer from './components/AccordionContainer';
 
 
 function App() {
   return (
    
     <div className="App">
-      <HeaderComponent/>
+      {/* <HeaderComponent/>
       <HeaderImage/>
       <HeaderMid/>
       <HeaderMagik/>
       <HeaderZad/>
-      <HeaderNoga/>
-      <HeaderSale/>
+      <HeaderNoga/>|
+      <ProductList/>
       <HeaderGet/>
-      <HeaderPeniti/>
+      <AccordionContainer/>
       <HeaderBegin/>
-      <HeaderPod/>
+      <HeaderPod/> */}
+      <HeaderComponent/>
+      <HeaderTwo/>
+      <HeaderList/>
+      <HeaderTop/>
+      <HeaderPlnt/>
+      <HeaderHah/>
+      <HeaderPedg/>
+      <HeaderProd/>
     </div>
     
   );

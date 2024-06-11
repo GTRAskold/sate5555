@@ -595,9 +595,17 @@ margin-left: 175px;
     gap: 150px;
     padding-bottom: 80px;
 }
-.podvfl div{
+.podvfl-text1{
     display: grid;
-    margin: 20px 40px;
+    margin: 20px 40px; 
+}
+.podvfl-text2{
+    display: grid;
+    margin: 20px 40px; 
+}
+.podvfl-text3{
+    display: grid;
+    margin: 20px 40px; 
 }
 .podvfl h1{
     font-size: 20px;
@@ -608,4 +616,203 @@ margin-left: 175px;
     font-size: 14px;
     font-weight: 100;
     line-height: 23px;
+}
+
+.knop1 {
+    border: none;
+}
+.knop2{ 
+    border: none;
+}
+.podval h1{
+    font-size: 20px;
+}
+.podval h2{
+    font-size: 15px;
+}
+
+
+.podval form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #141615;
+    width: 400px;
+    border-radius: 50px;
+    border: 1px solid white;
+    overflow: hidden;
+}
+.podval input{
+    border: none;
+    padding: 15px 20px;
+    flex: 1;
+    outline: none;
+    background-color: #141615;
+    color: white;
+
+}
+.podval input::placeholder{
+    color: #aaa;
+}
+.podval button{
+    border: none;
+    border-radius: 50px 0 0 50px;
+    padding: 15px 30px;
+    font-size: 16px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.podval button:hover{
+    background-color: #aaa;
+}
+.fot{
+    display: flex;
+    gap: 15px;
+}
+.clovo{
+    display: flex;
+    align-items: center;
+}
+.vell{
+    width: 100%;
+}
+.uryfg{
+    font-size: 25px;
+}
+.ofn{
+    font-size: 13px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.karta{
+    width: 100%;
+}
+
+.text-name{
+    position: absolute;
+    top: 225%;
+    left: 10%;
+    color: white;
+    max-width:700px;
+    font-size: 25px;
+}
+.head-btn{
+    border: none;
+    border-radius: 50px;
+    padding: 15px 30px;
+    font-size: 16px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+
+.velza2{
+    display: flex;
+    padding: 10px;
+    align-items: center; 
+}
+.pip-text{
+    margin-left:100px ;
+}
+.text1{
+    
+
+    width: 451px;
+    height: 100px;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 591;
+    font-size: 50px;
+    line-height: 50px;
+
+    display: flex;
+    align-items: center;
+
+
+    color: rgba(20, 22, 21, 0.9);
+
+
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+.txt2{
+
+    width: 468px;
+    height: 63px;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 539;
+    font-size: 14px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+
+
+    color: rgba(20, 22, 21, 0.9);
+
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+.txpro3{
+
+    width: 103px;
+    height: 15px;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 591;
+    font-size: 15px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+
+    color: #141615;
+
+    margin-top: 50px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.velosiped{
+    width: 100%;
+}
+.tert{
+    position: absolute;
+    left: 10%;
+    color: white;
+    max-width:700px;
+    font-size: 25px;
+    padding-top: 400px;
 }
