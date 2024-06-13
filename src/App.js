@@ -17,6 +17,19 @@ import HeaderPlnt from './components/HeaderPlnt';
 import HeaderHah from './components/HeaderHah';
 import HeaderPedg from './components/HeaderPedg';
 import HeaderProd from './components/HeaderProd';
+import HeaderFran from './components/HeaderFran';
+import HeaderFon from './components/HeaderFon';
+import HeaderGirl from './components/HeaderGirl';
+import HeaderPed from './components/HeaderPed';
+import HeaderSteering from './components/HeaderSteering';
+import HeaderNeed from './components/HeaderNeed';
+import HeaderAsters from './components/HeaderAsters';
+import HeaderRed from './components/HeaderRed';
+import HeaderLight from './components/HeaderLight';
+import HeaderPen from './components/HeaderPen';
+import HeaderSpoke from './components/HeaderSpoke';
+import HeaderStoolb from './components/HeaderStoolb';
+
 import './style.css';
 import AccordionContainer from './components/AccordionContainer';
 
@@ -36,7 +49,7 @@ function App() {
       <AccordionContainer/>
       <HeaderBegin/>
       <HeaderPod/> */}
-      <HeaderComponent/>
+      {/* <HeaderComponent/>
       <HeaderTwo/>
       <HeaderList/>
       <HeaderTop/>
@@ -44,6 +57,23 @@ function App() {
       <HeaderHah/>
       <HeaderPedg/>
       <HeaderProd/>
+      <HeaderFran/>
+      <HeaderBegin/>
+      <HeaderPod/>  */}
+      <HeaderComponent/>
+      <HeaderFon/>
+      <HeaderGirl/>
+      <HeaderPed/>
+      <HeaderSteering/>
+      <HeaderNeed/>
+      <HeaderAsters/>
+      <HeaderRed/>
+      <HeaderLight/>
+      <HeaderPen/>
+      <HeaderSpoke/>
+      <HeaderStoolb/>
+      <HeaderBegin/>
+      <HeaderPod/>  
     </div>
     
   );

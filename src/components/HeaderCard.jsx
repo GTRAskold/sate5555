@@ -4,7 +4,7 @@ import left from '../images/left.png'
 import right from '../images/right.png'
 
 // Компонент ProductCard отображает информацию о продукте и позволяет менять изображение велосипеда
-const ProductCard = ({ title, subtitle, price, images, colorImages, leftArrow, rightArrow }) => {
+const ProductCard = ({ title, subtitle, price, images, colorImages, leftArrow, rightArrow, height }) => {
     // Состояние для хранения текущего индекса изображения
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
@@ -32,10 +32,10 @@ const ProductCard = ({ title, subtitle, price, images, colorImages, leftArrow, r
                     
                 </div>
                 <div className="product-price">{price}</div>
-                <div className='rider'>
-                    <h3>Rider height: 173-200cm</h3>
-                    </div>
             </div>
+                <div className='rider'>
+                    <h3>Rider height: {height}cm</h3>
+                    </div>
             <div className="product-image-container">
                 {/* Изображение левой стрелки */}
                 <img className="arrow left" src={left} onClick={handleLeftArrowClick} />
@@ -45,6 +45,12 @@ const ProductCard = ({ title, subtitle, price, images, colorImages, leftArrow, r
                 <img className="arrow right" src={right} onClick={handleRightArrowClick} />
             </div>
             <div className="product-colors">
+            <div className="color-container">
+                <button className='head-btn'>Buy Now</button>
+                <a>Learn more</a>
+            </div>
+            <div className="">
+
                 {colorImages.map((color, index) => (
                     <img 
                         key={index} 
@@ -54,6 +60,7 @@ const ProductCard = ({ title, subtitle, price, images, colorImages, leftArrow, r
                         onClick={() => handleColorImageClick(index)}
                     />
                 ))}
+            </div>
             </div>
         </div>
     );

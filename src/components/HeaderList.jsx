@@ -16,14 +16,17 @@ const HeaderList = () => {
             subtitle: 'Two',
             price: '€69,07 NET/MONTH',
             images: [velik, velik2,velik, velik2],
-            colorImages: [color1, color2 , color3 ,color4]
+            
+            colorImages: [color1, color2 , color3 ,color4],
+            height: '173-200'
         },
         {
             title: 'Electric Ivy',
             subtitle: 'Two',
             price: '€69,07 NET/MONTH',
             images: [[velik], [velik2],[velik], velik2],
-            colorImages: [color1, color2 , color3 ,color4]
+            colorImages: [color1, color2 , color3 ,color4],
+            height: '164-184'
         }
     ];
 
@@ -37,6 +40,7 @@ const HeaderList = () => {
                     price={product.price}
                     images={product.images}
                     colorImages={product.colorImages}
+                    height={product.height}
                 />
             ))}
         </div>
